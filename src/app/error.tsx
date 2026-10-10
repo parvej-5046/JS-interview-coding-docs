@@ -2,7 +2,7 @@
 
 export default function RouteError({ retry }: { retry: () => void }) {
   return (
-    <main className="flex flex-1 flex-col items-center justify-center gap-4 p-8 text-center">
+    <div className="flex flex-1 flex-col items-center justify-center gap-4 text-center">
       <h1 className="text-2xl font-semibold tracking-tight">
         Something went wrong
       </h1>
@@ -13,6 +13,6 @@ export default function RouteError({ retry }: { retry: () => void }) {
       >
         Try again
       </button>
-    </main>
+    </div>
   );
 }
