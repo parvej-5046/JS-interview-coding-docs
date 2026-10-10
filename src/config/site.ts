@@ -13,10 +13,5 @@ export const siteConfig = {
       href: "/react",
       description: "Hooks, patterns and solved React tasks.",
     },
-    {
-      label: "Problems",
-      href: "/problems",
-      description: "Every solved problem in one searchable list.",
-    },
   ],
 } as const;
